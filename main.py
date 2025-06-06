@@ -4,7 +4,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 # ✅ Allow requests from your exact landing page URL
-CORS(app, origins=["https://nicky-landing.vercel.app"])
+CORS(app, origins=["https://16959149-f846-400c-9924-b961fb3c50fc-00-1mfkirmx9lr8w.picard.replit.dev"])
 
 # ✅ Dummy transaction IDs just for testing
 valid_tx_ids = {
